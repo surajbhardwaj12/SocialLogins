@@ -13,6 +13,8 @@
 		139565512817A8A100797013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1395654F2817A8A100797013 /* Main.storyboard */; };
 		139565532817A8A400797013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139565522817A8A400797013 /* Assets.xcassets */; };
 		139565562817A8A400797013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139565542817A8A400797013 /* LaunchScreen.storyboard */; };
+		1395655F2817A8F600797013 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395655D2817A8F600797013 /* LoginCell.swift */; };
+		139565602817A8F600797013 /* LoginCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1395655E2817A8F600797013 /* LoginCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		139565522817A8A400797013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		139565552817A8A400797013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		139565572817A8A400797013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1395655D2817A8F600797013 /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		1395655E2817A8F600797013 /* LoginCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				139565492817A8A100797013 /* AppDelegate.swift */,
 				1395654B2817A8A100797013 /* SceneDelegate.swift */,
 				1395654D2817A8A100797013 /* ViewController.swift */,
+				1395655D2817A8F600797013 /* LoginCell.swift */,
+				1395655E2817A8F600797013 /* LoginCell.xib */,
 				1395654F2817A8A100797013 /* Main.storyboard */,
 				139565522817A8A400797013 /* Assets.xcassets */,
 				139565542817A8A400797013 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 				139565562817A8A400797013 /* LaunchScreen.storyboard in Resources */,
 				139565532817A8A400797013 /* Assets.xcassets in Resources */,
 				139565512817A8A100797013 /* Main.storyboard in Resources */,
+				139565602817A8F600797013 /* LoginCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				1395654E2817A8A100797013 /* ViewController.swift in Sources */,
 				1395654A2817A8A100797013 /* AppDelegate.swift in Sources */,
 				1395654C2817A8A100797013 /* SceneDelegate.swift in Sources */,
+				1395655F2817A8F600797013 /* LoginCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
